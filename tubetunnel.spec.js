@@ -44,7 +44,7 @@ test('query tubetunnel server w/ ident', async done => {
     });
 
     res.on('end', () => {
-      assert(/.*[.]tunnel[.]bittube[.]app/.test(body), body);
+      assert(/.*[.]bittube[.]app/.test(body), body);
       tunnel.close();
       done();
     });
