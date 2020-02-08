@@ -18,6 +18,9 @@
   "dependencies": {
     "axios": "^0.19.0",
     "debug": "^4.1.1",
+    "diff": "^4.0.2",
+    "growl": "^1.10.5",
+    "minimatch": "^3.0.4",
     "openurl": "^1.1.1",
     "yargs": "^13.3.0"
   },
